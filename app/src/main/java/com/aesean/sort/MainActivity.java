@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 boolean b = false;
                 try {
                     arraySize = Integer.valueOf(et_ArraySize.getText().toString());
-                    if (arraySize > 1000000) {
+                    if (arraySize > 10000000) {
                         et_ArraySize.setError(getResources().getString(R.string.ArraySizeTips));
                         b = true;
                     }
@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 int arrayMaxValue = 0;
                 try {
                     arrayMaxValue = Integer.valueOf(et_ArrayMaxValue.getText().toString());
-                    if (arrayMaxValue > 1000000) {
-                        et_ArraySize.setError(getResources().getString(R.string.ArraySizeTips));
+                    if (arrayMaxValue > 10000000) {
+                        et_ArrayMaxValue.setError(getResources().getString(R.string.ArrayMaxValueTips));
                         b = true;
                     }
                 } catch (NumberFormatException e) {
