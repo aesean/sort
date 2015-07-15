@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sort</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="IndexSort">排序</string>
+    <string name="Title">索引排序</string>
+    <string name="ArraySize">数组大小</string>
+    <string name="ArraySizeTips">请输入一个1~10000000之间的整数</string>
+    <string name="ArrayMaxValue">数据最大值</string>
+    <string name="Result">排序结果：（仅输出数组大小小于100的具体排序结果）\n</string>
+    <string name="action_about">关于</string>
+    <string name="action_exit">退出</string>
+    <string name="ArrayMaxValueTips">请输入一个1~10000000之间的整数</string>
+    <string name="dialog_title">关于</string>
+    <string name="dialog_content">一种特殊的排序方式，利用类似数据库索引方式对数据进行排序。\n适合需要排序的数据量非常大，同时数据还比较集中的情况。这个算法仅仅是提供一种思路，相比传统排序算法限制还是比较多的。</string>
+</resources>
