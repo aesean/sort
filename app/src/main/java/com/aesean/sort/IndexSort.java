@@ -156,7 +156,7 @@ public class IndexSort {
         //后面的仅仅是为了输出数据，与算法无关，可删除。
         //打印数据量小于20的数据结果
         mResult = new StringBuilder();
-        if (result.length < 101 && temp.length < 102) {
+        if (result.length < 101) {
             StringBuilder sb1 = new StringBuilder();
             sb1.append("原始数据：");
             for (int i : datas)
